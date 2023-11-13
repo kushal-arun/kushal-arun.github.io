@@ -1,0 +1,101 @@
+:root {
+  --background-color: rgb(255, 255, 255);
+  --color: black;
+  --top-bg-color: white;
+  --top-text-color: black;
+  --color1: rgb(125, 211, 252);
+  --color2: rgb(110, 231, 183);
+  --color3: #7eb4e0;
+  --color4: #6ee7b7;
+  --card-color1: #03a9f4;
+  --card-color2: #ff0058;
+  --card-desc-bg-color: rgb(240, 248, 255);
+  --card-border-color: rgb(240, 210, 130);
+  --card-border-box-shadow: rgba(0, 0, 0, 0.2);
+  --mcx: 0px;
+  --mcy: 0px;
+  --mouse-color1: rgba(125, 211, 252, 0.2);
+  --mouse-color2: rgba(110, 231, 183, 0.2);
+  --bg-section-color: rgb(33, 36, 32);
+  --skillcolor1: rgb(125, 211, 252);
+  --skillcolor2: rgb(110, 231, 183);
+}
+
+html[data-theme="light"] {
+  --background-color: #ffffff;
+  --color: black;
+  --top-bg-color: rgb(255, 255, 255);
+  --top-text-color: black;
+  --color1: rgb(12, 12, 12);
+  --color2: rgb(80, 80, 80);
+  --color3: rgb(59, 59, 59);
+  --color4: rgb(0, 0, 0);
+  --card-color1: #525252;
+  --card-color2: #444444;
+  --card-desc-bg-color: rgb(177, 177, 177);
+  --card-border-color: rgb(240, 210, 130);
+  --card-border-box-shadow: rgba(0, 0, 0, 0.2);
+  --mcx: 0px;
+  --mcy: 0px;
+  --mouse-color1: rgba(125, 211, 252, 0.2);
+  --mouse-color2: rgba(110, 231, 183, 0.2);
+  --bg-section-color: #bdbdbd80;
+  --text-decoration-color: rgb(109, 109, 109);
+  --skillcolor2: rgb(37, 37, 37);
+  --skillcolor1: rgb(129, 129, 129);
+  --eventcolor: black;
+}
+
+html[data-theme="dark"] {
+  --background-color: rgb(10, 10, 10);
+  --color: white;
+  --top-bg-color: rgb(10, 10, 10);
+  --top-text-color: white;
+  --color1: #3e288f;
+  --color2: palevioletred;
+  --color3: #533aad;
+  --color4: #8f76aa;
+  --card-color1: rgb(0, 64, 221);
+  --card-color2: rgb(191, 90, 242);
+  --card-desc-bg-color: rgb(73, 76, 78);
+  --card-border-color: rgb(0, 0, 0);
+  --card-border-box-shadow: rgba(230, 230, 230, 0.2);
+  --mouse-color1: rgba(35, 21, 87, 0.2);
+  --mouse-color2: rgba(143, 118, 170, 0.2);
+  --bg-section-color: rgba(50, 50, 50, 0.8);
+  --text-decoration-color: palevioletred;
+  --skillcolor2: #3e288f;
+  --skillcolor1: palevioletred;
+  --eventcolor: rgb(232, 219, 254);
+}
+
+body {
+  margin: 0;
+  font-family: "League Spartan", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background-color);
+  color: var(--color);
+  font-size: calc(0.75em + 0.9vmin);
+  transition: all 1s;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+body::-webkit-scrollbar {
+  background-color: transparent;
+  border-radius: 10px;
+  width: calc(0.25em + 0.25vw);
+  height: calc(0.25em + 0.25vw);
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: 10px;
+  width: calc(0.25em + 0.25vw);
+  height: calc(0.25em + 0.25vw);
+}

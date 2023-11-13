@@ -1,0 +1,41 @@
+.eventsContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    border-radius: 5px;
+    width: 75vw;
+    margin: 2%;
+    max-height: 40vh;
+    overflow-y: scroll;
+    color: var(--eventcolor);
+}
+
+.myEvent {
+    display: grid;
+    grid-template-columns: 15vw 50vw;
+    padding: 5px;
+    font-size: clamp(10px,calc(0.5em + 0.7vmin));
+}
+
+.eventDesc {
+    white-space: pre;
+}
+
+.eventDesc a {
+    color: var(--text-decoration-color);
+}
+
+.eventsContainer::-webkit-scrollbar {
+    background-color: transparent;
+    border-radius: 10px;
+    width: calc(0.25em + 0.25vw);
+    height: calc(0.25em + 0.25vw);
+}
+
+.eventsContainer::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 10px;
+    width: calc(0.25em + 0.25vw);
+    height: calc(0.25em + 0.25vw);
+
+}

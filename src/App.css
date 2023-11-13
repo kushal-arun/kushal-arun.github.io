@@ -1,0 +1,42 @@
+.App {
+  text-align: left;
+  width: 90vw;
+  margin: auto;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+  scroll-behavior: smooth;
+}
+
+.BGSection {
+  padding: 3%;
+  background-color: var(--bg-section-color);
+  border-radius: 2vmin;
+}
+
+.heading {
+  font-family: 'League Spartan', sans-serif;
+  position: relative;
+  font-size: 2rem;
+  margin: 2%;
+}
+
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .BGSection {
+    background-color: transparent;
+  }
+
+  .heading {
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+  }
+}
