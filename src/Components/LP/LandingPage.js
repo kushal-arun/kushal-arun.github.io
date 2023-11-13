@@ -63,10 +63,10 @@ const LandingPage = () => {
                 Hello there, I'm
                 <div className="coloredText" style={{fontSize: 'calc(2em + 2vmin)'}}>
                   <div>
-                    {[..."Gurram."].map((x) => <div className='nameDiv'>{x}</div>)}
+                    {[..."Kushal Gurram"].map((x) => <div className='nameDiv'>{x}</div>)}
                   </div>
                   <div>
-                    {[..."I write Code."].map((x) => <div className='nameDiv'>{x}</div>)}
+                    {[..."I'm a Data Scientist."].map((x) => <div className='nameDiv'>{x}</div>)}
                   </div>
                 </div>
             </div>
