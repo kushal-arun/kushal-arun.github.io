@@ -35,7 +35,7 @@ function Projects() {
             description: "A spotify web-app that suggests similar songs based on user preferences such as tempo, loudness, danceability.",
             skills: ["Scikit-learn", "ReactJS", "Rust", "AWS"],
             bg: "./proj_imgs/proj1.png",
-            url: "https://manishlapasi.github.io/react-spotify"
+            url: "https://kushal-arun.github.io/"
         }
     ]
 

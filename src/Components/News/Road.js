@@ -5,69 +5,69 @@ const Roads = () => {
     const myEvents = [
         {
             dateOf: 'May 2023',
-            desc1: "Started interning at Georgia Tech's Center for Quality Growth!",
-            desc2: "Building a ML model on spatial data served with a React front-end."
+            desc1: "Concluded my role as a Data Science Engineer at Coherent Tech.",
+            desc2: "Achieved 7% energy cost savings through key performance indicator analysis and benchmark analysis on US sites."
         },
         {
-            dateOf: 'May 2023',
-            desc1: "Another semester at Georgia Tech complete, and another 4.0!",
-            desc2: "Courses: Deep Learning, Game AI, CyberSecurity, Graduate Algorithms"
+            dateOf: 'Jul 2022',
+            desc1: "Started as a Data Science Engineer at Coherent Tech.",
+            desc2: "Began enhancing decision-making processes and implementing benchmark analysis."
         },
+        {
+            dateOf: 'Aug 2021',
+            desc1: "Began my Python Analyst role at Honeywell.",
+            desc2: "Focused on enhancing data accessibility and developing ML models and algorithms."
+        },
+        {
+            dateOf: 'Jun 2020',
+            desc1: "Joined ISRO as a Software Engineer.",
+            desc2: "Led a team of 5 in building encrypted SQL-Server and IP-Telephone (IVR)."
+        },
+        {
+            dateOf: 'Jan 2020',
+            desc1: "Started my journey as a Data Analyst with Smart Bridge.",
+            desc2: "Crafted advanced SQL queries for data analysis and reporting."
+        },
+        {
+            dateOf: 'Placeholder Date',
+            desc1: "Engaged in the Bird CLEF Kaggle Competition.",
+            desc2: "Conducted EDA and Feature Engineering, optimizing a CNN model."
+        },
+        {
+            dateOf: 'Placeholder Date',
+            desc1: "Began my Fellowship with Correlation One.",
+            desc2: "Segmented customers and detected fraud transactions with high accuracy."
+        },
+        {
+            dateOf: 'Placeholder Date',
+            desc1: "Teaching Assistant at JNTU.",
+            desc2: "Designed ML and AI courses, tutoring over 900 students."
+        },
+        {
+            dateOf: 'Placeholder Date',
+            desc1: "Achievements in education and certifications.",
+            desc2: "Earned Science Scholarship, Academic Excellence Scholarship, Best Intern at ISRO, and completed multiple certifications."
+        },
+
         {
             dateOf: 'March 2023',
             desc1: 'Published my Music Recommendation App!',
             desc2: 'I wrote a blog on it too!',
             linkDesc1: true,
-            linkUrl1: 'https://manishlapasi.github.io/react-spotify',
+            linkUrl1: 'https://kusahl-arun.github.io/',
             linkWordPos1: 0,
             linkDesc2: true,
-            linkUrl2: 'https://awstip.com/a-soir%C3%A9e-with-rust-b2de45986e42',
+            linkUrl2: 'https://awstip.com/45986e42',
             linkWordPos2: 3
-        },
-        {
-            dateOf: 'Dec 2022',
-            desc1: 'My first semester at Georgia tech, complete, with a 4.0!',
-            desc2: 'Courses: Database Systems, Knowledge-based AI, Data and Visual Analytics, Computational Data Analytics'
-        },
-        {
-            dateOf: 'Aug 2022',
-            desc1: "Left my job at Honeywell to attend Georgia Tech.",
-            desc2: "This was a great 2 year experience that taught me a lot. Au revoir!"
-        },
-        {
-            dateOf: 'March 2022',
-            desc1: 'Got promoted to Advanced Software Engineer!',
-            desc2: ''
-        },
-        {
-            dateOf: 'Aug 2020',
-            desc1: 'Joined Honeywell as a SDE.',
-            desc2: ''
         },
         {
             dateOf: 'May 2020',
             desc1: "Published an IEEE paper on Algorithms for Obstacle Avoidance!",
             desc2: "Covid won't let me attend the conference though.",
             linkDesc1: true,
-            linkUrl1: 'https://ieeexplore.ieee.org/document/9213866',
+            linkUrl1: 'https://ieeexplore.ieee.org/',
             linkWordPos1: 0
-        },
-        {
-            dateOf: 'May 2020',
-            desc1: "Graduated from IIT Madras with a 3.8 GPA!",
-            desc2: "A pretty sweet place to have spent my collegiate life."
-        },
-        {
-            dateOf: 'July 2019',
-            desc1: "SpaceX Hyperloop Pod Competition Finalists!",
-            desc2: "A thrilling experience interfacing software on embedded systems."
-        },
-        {
-            dateOf: 'May 2019',
-            desc1: "Joined GreyOrange Robotics as a SDE Intern.",
-            desc2: ""
-        }
-        
+        },    
     ]
     return (
         <div className="eventsContainer">
